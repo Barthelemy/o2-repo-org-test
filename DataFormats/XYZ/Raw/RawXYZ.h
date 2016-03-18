@@ -21,7 +21,7 @@ public:
 
 };
 
-} // namespace XYZ
+} // namespace DataFormat
 } // namespace AliceO2
 
 #endif // ALICE_O2_XYZ_RAWXYZ_H

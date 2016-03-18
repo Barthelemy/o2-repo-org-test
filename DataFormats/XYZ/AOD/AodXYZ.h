@@ -3,8 +3,8 @@
 /// @author  Barthelemy von Haller
 ///
 
-#ifndef ALICE_O2_XYZ_AODXYZ_H
-#define ALICE_O2_XYZ_AODXYZ_H
+#ifndef ALICE_O2_DataFormat_AODXYZ_H
+#define ALICE_O2_DataFormat_AODXYZ_H
 
 /// @brief    Here you put a short description of the namespace
 /// Extended documentation for this namespace
@@ -15,13 +15,13 @@ namespace XYZ {
 /// @brief   Here you put a short description of the class
 /// Extended documentation for this class.
 /// @author 	Barthelemy von Haller
-class RawXYZ {
+class AodXYZ {
 public:
 
 
 };
 
-} // namespace XYZ
+} // namespace DataFormat
 } // namespace AliceO2
 
-#endif // ALICE_O2_XYZ_AODXYZ_H
+#endif // ALICE_O2_DataFormat_AODXYZ_H
