@@ -4,7 +4,7 @@
 ///
 
 #include <iostream>
-#include "../include/SimulatorITS.h"
+#include "SimulatorITS.h"
 
 namespace AliceO2 {
 namespace ITS {
@@ -22,5 +22,5 @@ int SimulatorITS::returnsN(int n)
   return n;
 }
 
-} // namespace ProjB
-} // namespace ProjectTemplate
+} // namespace ITS
+} // namespace AliceO2

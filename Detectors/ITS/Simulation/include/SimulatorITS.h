@@ -32,6 +32,6 @@ public:
 };
 
 } // namespace Hello
-} // namespace ProjectTemplate
+} // namespace ITS
 
 #endif // ALICE_O2_ITS_SIMULATORITS_H

@@ -3,12 +3,12 @@
 /// @author  Barthelemy von Haller
 ///
 
-#include "../../GlobalTracking/include/Foo.h"
+#include "Foo.h"
 
 #include <iostream>
 
 namespace AliceO2 {
-namespace ProjB {
+namespace GlobalTracking {
 
 void Foo::greet()
 {

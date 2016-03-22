@@ -11,3 +11,7 @@ Dependencies proposal (totally imaginary + directory based until we have some de
 * Detectors/TPC/Reconstruction -> boost + Common
 * Detectors/TPC/Simulation -> Geant4 + Common + boost
 * GlobalTracking -> Common + DataFormats + boost + Detectors/*/Reconstruction
+
+Open questions: 
+* include prefixed with module name ? ie. "include Common/Bar.h" instead of "include Bar.h" ?
+.... I think that it is necessary as we use namespaces (it could clash on the name of headers).

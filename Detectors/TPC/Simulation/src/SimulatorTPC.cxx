@@ -4,7 +4,7 @@
 ///
 
 #include <iostream>
-#include "../include/SimulatorTPC.h"
+#include "SimulatorTPC.h"
 
 namespace AliceO2 {
 namespace TPC {
@@ -22,5 +22,5 @@ int SimulatorTPC::returnsN(int n)
   return n;
 }
 
-} // namespace ProjB
-} // namespace ProjectTemplate
+} // namespace TPC
+} // namespace AliceO2

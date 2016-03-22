@@ -4,7 +4,7 @@
 ///
 
 #include <iostream>
-#include "../include/ReconstructorITS.h"
+#include "ReconstructorITS.h"
 
 namespace AliceO2 {
 namespace ITS {
@@ -22,5 +22,5 @@ int ReconstructorITS::returnsN(int n)
   return n;
 }
 
-} // namespace ProjB
-} // namespace ProjectTemplate
+} // namespace ITS
+} // namespace AliceO2

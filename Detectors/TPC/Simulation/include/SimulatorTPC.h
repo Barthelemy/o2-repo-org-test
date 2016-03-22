@@ -31,7 +31,7 @@ public:
   int returnsN(int n);
 };
 
-} // namespace Hello
-} // namespace ProjectTemplate
+} // namespace TPC
+} // namespace AliceO2
 
 #endif // ALICE_O2_TPC_SIMULATORTPC_H

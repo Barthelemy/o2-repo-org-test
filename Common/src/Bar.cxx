@@ -3,12 +3,12 @@
 /// @author  Barthelemy von Haller
 ///
 
-#include "../../Common/include/Bar.h"
+#include "Bar.h"
 
 #include <iostream>
 
 namespace AliceO2 {
-namespace ProjB {
+namespace Common {
 
 void Bar::greet()
 {

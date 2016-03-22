@@ -10,7 +10,7 @@
 /// Extended documentation for this namespace
 /// @author  	Barthelemy von Haller
 namespace AliceO2 {
-namespace ProjB {
+namespace GlobalTracking {
 
 /// @brief   Here you put a short description of the class
 /// Extended documentation for this class.
@@ -31,7 +31,7 @@ public:
   int returnsN(int n);
 };
 
-} // namespace ProjB
+} // namespace GlobalTracking
 } // namespace AliceO2
 
 #endif // ALICE_O2_PROJB_FOO_H
