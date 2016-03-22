@@ -1,9 +1,7 @@
 # o2-repo-org-test
 
 Some notes :
-
-* DataFormats:
-..* TPC has subdirectories in order to produce several libs
+* DataFormats: TPC has subdirectories in order to produce several libs
 
 Dependencies proposal (totally imaginary + directory based until we have some deliverables) : 
 * Common -> boost
