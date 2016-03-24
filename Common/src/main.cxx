@@ -3,7 +3,7 @@
 /// @author  Barthelemy von Haller
 ///
 
-#include "Bar.h"
+#include "Common/Bar.h"
 #include <boost/program_options.hpp>
 #include <iostream>
 

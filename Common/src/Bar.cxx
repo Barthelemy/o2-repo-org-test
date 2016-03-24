@@ -3,7 +3,7 @@
 /// @author  Barthelemy von Haller
 ///
 
-#include "Bar.h"
+#include "Common/Bar.h"
 
 #include <iostream>
 
@@ -12,7 +12,7 @@ namespace Common {
 
 void Bar::greet()
 {
-  std::cout << "ProjB world!!" << std::endl;
+  std::cout << "Hello Common world!!" << std::endl;
 }
 
 int Bar::returnsN(int n)
