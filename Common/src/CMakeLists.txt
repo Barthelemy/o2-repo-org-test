@@ -2,7 +2,7 @@
 
 # Define the source and header files
 set(LIB_HEADERS
-  "${CMAKE_CURRENT_BINARY_DIR}/../include/ProjB/Version.h"
+  "${CMAKE_CURRENT_BINARY_DIR}/../include/Common/Version.h"
   ../include/Common/Bar.h
 )
 
