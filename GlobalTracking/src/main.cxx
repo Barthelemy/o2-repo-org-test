@@ -3,7 +3,7 @@
 /// @author  Barthelemy von Haller
 ///
 
-#include "Foo.h"
+#include "GlobalTracking/Foo.h"
 #include <boost/program_options.hpp>
 #include <iostream>
 

@@ -52,7 +52,7 @@ enable_testing()
 add_subdirectory(Common)
 #add_subdirectory(DataFormats)
 #add_subdirectory(Detectors)
-#add_subdirectory(GlobalTracking)
+add_subdirectory(GlobalTracking)
 
 #
 # SYSTEM PACKAGING (RPM, TGZ, ...)

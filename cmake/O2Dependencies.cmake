@@ -5,17 +5,30 @@ include_directories(
 
 o2_define_bucket(
         NAME
-        "Common_Bucket"
+        Common_Bucket
         DEPENDENCIES # library names
         ${Boost_PROGRAM_OPTIONS_LIBRARY}
 )
 
 o2_define_bucket(
         NAME
-        "DataFormats_Bucket"
+        DataFormats_Bucket
         DEPENDENCIES # library names
         Common
         ${Boost_PROGRAM_OPTIONS_LIBRARY}
         ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY}
         protobuf
 )
+
+o2_define_bucket(
+        NAME
+        GlobalTracking_Bucket
+        DEPENDENCIES # library names
+        Common
+        ${Boost_PROGRAM_OPTIONS_LIBRARY}
+        ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY}
+        #DataFormats
+        #Detectors/*/Reconstruction
+        #ROOT
+)
+
