@@ -32,3 +32,21 @@ o2_define_bucket(
         #ROOT
 )
 
+o2_define_bucket(
+        NAME
+        Simulation_Bucket
+        DEPENDENCIES
+        #Geant4
+        Common
+        ${Boost_PROGRAM_OPTIONS_LIBRARY}
+        ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY}
+)
+
+o2_define_bucket(
+        NAME
+        Reconstruction_Bucket
+        DEPENDENCIES
+        Common
+        ${Boost_PROGRAM_OPTIONS_LIBRARY}
+        ${Boost_UNIT_TEST_FRAMEWORK_LIBRARY}
+)

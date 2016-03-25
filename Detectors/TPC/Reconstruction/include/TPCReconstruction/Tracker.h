@@ -1,21 +1,21 @@
 ///
-/// @file    SimulatorITS.h
+/// @file    Tracker.h
 /// @author  Barthelemy von Haller
 ///
 
-#ifndef ALICE_O2_ITS_SIMULATORITS_H
-#define ALICE_O2_ITS_SIMULATORITS_H
+#ifndef ALICE_O2_TPC_TRACKER_H
+#define ALICE_O2_TPC_TRACKER_H
 
 /// @brief    Here you put a short description of the namespace
 /// Extended documentation for this namespace
 /// @author  	Barthelemy von Haller
 namespace AliceO2 {
-namespace ITS {
+namespace TPC {
 
 /// @brief   Here you put a short description of the class
 /// Extended documentation for this class.
 /// @author 	Barthelemy von Haller
-class SimulatorITS {
+class Tracker {
 public:
 
   /// @brief   Greets the caller
@@ -31,7 +31,7 @@ public:
   int returnsN(int n);
 };
 
-} // namespace Hello
-} // namespace ITS
+} // namespace TPC
+} // namespace AliceO2
 
-#endif // ALICE_O2_ITS_SIMULATORITS_H
+#endif // ALICE_O2_TPC_TRACKER_H

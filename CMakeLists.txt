@@ -51,7 +51,7 @@ enable_testing()
 # Subdirectories
 add_subdirectory(Common)
 #add_subdirectory(DataFormats)
-#add_subdirectory(Detectors)
+add_subdirectory(Detectors)
 add_subdirectory(GlobalTracking)
 
 #

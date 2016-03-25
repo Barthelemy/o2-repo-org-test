@@ -35,6 +35,7 @@ set_target_properties(${LIBRARY_NAME} PROPERTIES
 o2_target_link_bucket(TARGET ${LIBRARY_NAME} BUCKET "GlobalTracking_Bucket")
 
 include_directories(../include)
+include_directories(../../Common/include) # TODO see if this is ok
 
 # Define application
 add_executable(${APPLICATION_NAME} ${APP_SOURCES})
@@ -47,7 +48,7 @@ target_link_libraries(${APPLICATION_NAME} ${LIBRARY_NAME})
 # Says how and where to install software
 # Targets:
 #   * <prefix>/lib/<libraries>
-#   * header location after install: <prefix>/include/<project>/*.h
+#   * header location after install: <prefix>/include/<module>/*.h
 #   * headers can be included by C++ code `#<project>/Foo.hpp>`
 install(TARGETS ${LIBRARY_NAME} ${APPLICATION_NAME}
   EXPORT ${PROJECT_NAME}Targets            # for downstream dependencies
@@ -55,7 +56,7 @@ install(TARGETS ${LIBRARY_NAME} ${APPLICATION_NAME}
   RUNTIME DESTINATION bin COMPONENT libs   # binaries
   LIBRARY DESTINATION lib COMPONENT libs   # shared lib
   FRAMEWORK DESTINATION bin COMPONENT libs # for mac
-  PUBLIC_HEADER DESTINATION include/${PROJECT_NAME} COMPONENT devel   # headers for mac (note the different component -> different package)
+  PUBLIC_HEADER DESTINATION include/${LIBRARY_NAME} COMPONENT devel
   INCLUDES DESTINATION include             # headers
 )
 

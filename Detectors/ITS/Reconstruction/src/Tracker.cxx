@@ -1,20 +1,20 @@
 ///
-/// @file    SimulatorITS.cxx
+/// @file    Tracker.cxx
 /// @author  Barthelemy von Haller
 ///
 
 #include <iostream>
-#include "SimulatorITS.h"
+#include "ITSReconstruction/Tracker.h"
 
 namespace AliceO2 {
 namespace ITS {
 
-void SimulatorITS::greet()
+void Tracker::greet()
 {
-  std::cout << "Hello SimulatorITS" << std::endl;
+  std::cout << "Hello Tracker" << std::endl;
 }
 
-int SimulatorITS::returnsN(int n)
+int Tracker::returnsN(int n)
 {
 
   /// \todo This is how you can markup a todo in your code that will show up in the documentation of your project.

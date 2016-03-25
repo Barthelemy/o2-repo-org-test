@@ -4,7 +4,7 @@
 ///
 
 #include <iostream>
-#include "SimulatorTPC.h"
+#include "TPCSimulation/SimulatorTPC.h"
 
 namespace AliceO2 {
 namespace TPC {
