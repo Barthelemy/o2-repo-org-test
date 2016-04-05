@@ -1,13 +1,20 @@
 # @author  Barthélémy von Haller
 
 # Define the source and header files
-set(LIB_HEADERS
+
+set(PUBLIC_HEADERS
   "${CMAKE_CURRENT_BINARY_DIR}/../include/Common/Version.h"
   ../include/Common/Bar.h
 )
 
+set(LIB_HEADERS
+  ${PUBLIC_HEADERS}
+  NonPublic.h
+)
+
 set(LIB_SOURCES
   Bar.cxx
+  NonPublic.cxx
 )
 
 set(APP_HEADERS
@@ -29,7 +36,7 @@ add_library(${LIBRARY_NAME} SHARED ${LIB_SOURCES})
 set_target_properties(${LIBRARY_NAME} PROPERTIES
   VERSION ${VERSION}  # ${VERSION} was defined in the main CMakeLists.
   FRAMEWORK FALSE
-  PUBLIC_HEADER "${LIB_HEADERS}" # specify the public headers
+  PUBLIC_HEADER "${PUBLIC_HEADERS}" # specify the public headers
 )
 
 # Links the target library against the libraries in a given bucket (defined in the top dir)

@@ -1,5 +1,5 @@
 ///
-/// @file    World.h
+/// @file    Bar.h
 /// @author  Barthelemy von Haller
 ///
 

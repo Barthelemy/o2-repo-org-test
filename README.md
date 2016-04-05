@@ -33,7 +33,7 @@ use include_directories(../../Common/include). Maybe it is ok, but I am not sure
 
 To do:
 
-- [ ] add a non public header that is in src
+- [x] add a non public header that is in src
 - [ ] DataFormats cmake
 - [ ] doxygen example
 - [ ] test example
@@ -43,3 +43,5 @@ To do:
 - [ ] add the o2_setup macro that modules should call (related to previous point?)
 - [ ] standalone module example
 
+// is it ok that we do not prefix it with "Common/" or is it confusing because the public
+// headers are prefixed ?
