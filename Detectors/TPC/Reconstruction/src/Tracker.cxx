@@ -1,20 +1,20 @@
 ///
-/// @file    ReconstructorITS.cxx
+/// @file    ReconstructorTPC.cxx
 /// @author  Barthelemy von Haller
 ///
 
 #include <iostream>
-#include "ReconstructorITS.h"
+#include "TPCReconstruction/Tracker.h"
 
 namespace AliceO2 {
-namespace ITS {
+namespace TPC {
 
-void ReconstructorITS::greet()
+void Tracker::greet()
 {
-  std::cout << "Hello ReconstructorITS" << std::endl;
+  std::cout << "ProjB world!!" << std::endl;
 }
 
-int ReconstructorITS::returnsN(int n)
+int Tracker::returnsN(int n)
 {
 
   /// \todo This is how you can markup a todo in your code that will show up in the documentation of your project.
@@ -22,5 +22,5 @@ int ReconstructorITS::returnsN(int n)
   return n;
 }
 
-} // namespace ITS
+} // namespace TPC
 } // namespace AliceO2

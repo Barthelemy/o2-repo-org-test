@@ -3,7 +3,8 @@
 /// @author  Barthelemy von Haller
 ///
 
-#include "Foo.h"
+#include "GlobalTracking/Foo.h"
+#include "Common/Bar.h"
 
 #include <iostream>
 
@@ -12,7 +13,9 @@ namespace GlobalTracking {
 
 void Foo::greet()
 {
-  std::cout << "ProjB world!!" << std::endl;
+  std::cout << "Hello GlobalTracking world!!" << std::endl;
+  AliceO2::Common::Bar bar;
+  bar.greet();
 }
 
 int Foo::returnsN(int n)

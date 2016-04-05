@@ -1,21 +1,21 @@
 ///
-/// @file    ReconstructorTPC.h
+/// @file    MonteCarloITS.h
 /// @author  Barthelemy von Haller
 ///
 
-#ifndef ALICE_O2_TPC_RECONSTRUCTORTPC_H
-#define ALICE_O2_TPC_RECONSTRUCTORTPC_H
+#ifndef ALICE_O2_ITS_MonteCarloITS_H
+#define ALICE_O2_ITS_MonteCarloITS_H
 
 /// @brief    Here you put a short description of the namespace
 /// Extended documentation for this namespace
 /// @author  	Barthelemy von Haller
 namespace AliceO2 {
-namespace TPC {
+namespace ITS {
 
 /// @brief   Here you put a short description of the class
 /// Extended documentation for this class.
 /// @author 	Barthelemy von Haller
-class ReconstructorTPC {
+class MonteCarloITS {
 public:
 
   /// @brief   Greets the caller
@@ -31,7 +31,7 @@ public:
   int returnsN(int n);
 };
 
-} // namespace TPC
-} // namespace AliceO2
+} // namespace Hello
+} // namespace ITS
 
-#endif // ALICE_O2_TPC_RECONSTRUCTORTPC_H
+#endif // ALICE_O2_ITS_MonteCarloITS_H

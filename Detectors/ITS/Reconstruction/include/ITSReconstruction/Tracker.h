@@ -1,10 +1,10 @@
 ///
-/// @file    ReconstructorITS.h
+/// @file    Tracker.h
 /// @author  Barthelemy von Haller
 ///
 
-#ifndef ALICE_O2_ITS_RECONSTRUCTORITS_H
-#define ALICE_O2_ITS_RECONSTRUCTORITS_H
+#ifndef ALICE_O2_ITS_TRACKER_H
+#define ALICE_O2_ITS_TRACKER_H
 
 /// @brief    Here you put a short description of the namespace
 /// Extended documentation for this namespace
@@ -15,7 +15,7 @@ namespace ITS {
 /// @brief   Here you put a short description of the class
 /// Extended documentation for this class.
 /// @author 	Barthelemy von Haller
-class ReconstructorITS {
+class Tracker {
 public:
 
   /// @brief   Greets the caller
@@ -34,4 +34,4 @@ public:
 } // namespace ITS
 } // namespace AliceO2
 
-#endif // ALICE_O2_ITS_RECONSTRUCTORITS_H
+#endif // ALICE_O2_ITS_TRACKER_H

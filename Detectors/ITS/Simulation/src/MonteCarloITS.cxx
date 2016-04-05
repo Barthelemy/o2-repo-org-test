@@ -1,20 +1,20 @@
 ///
-/// @file    ReconstructorTPC.cxx
+/// @file    MonteCarloITS.cxx
 /// @author  Barthelemy von Haller
 ///
 
 #include <iostream>
-#include "ReconstructorTPC.h"
+#include "ITSSimulation/MonteCarloITS.h"
 
 namespace AliceO2 {
-namespace TPC {
+namespace ITS {
 
-void ReconstructorTPC::greet()
+void MonteCarloITS::greet()
 {
-  std::cout << "ProjB world!!" << std::endl;
+  std::cout << "Hello MonteCarloITS" << std::endl;
 }
 
-int ReconstructorTPC::returnsN(int n)
+int MonteCarloITS::returnsN(int n)
 {
 
   /// \todo This is how you can markup a todo in your code that will show up in the documentation of your project.
@@ -22,5 +22,5 @@ int ReconstructorTPC::returnsN(int n)
   return n;
 }
 
-} // namespace TPC
+} // namespace ITS
 } // namespace AliceO2
