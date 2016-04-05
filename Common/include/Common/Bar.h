@@ -1,10 +1,10 @@
 ///
-/// @file    World.h
+/// @file    Bar.h
 /// @author  Barthelemy von Haller
 ///
 
-#ifndef ALICE_O2_PROJA_FOO_H
-#define ALICE_O2_PROJA_FOO_H
+#ifndef ALICE_O2_COMMON_BAR_H
+#define ALICE_O2_COMMON_BAR_H
 
 /// @brief    Here you put a short description of the namespace
 /// Extended documentation for this namespace
@@ -34,4 +34,4 @@ public:
 } // namespace Common
 } // namespace AliceO2
 
-#endif // ALICE_O2_PROJA_FOO_H
+#endif // ALICE_O2_COMMON_BAR_H

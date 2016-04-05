@@ -4,6 +4,9 @@
 ///
 
 #include "Common/Bar.h"
+#include "NonPublic.h"
+// is it ok that we do not prefix it with "Common/" or is it confusing because the public
+// headers are prefixed ?
 
 #include <iostream>
 
@@ -13,6 +16,8 @@ namespace Common {
 void Bar::greet()
 {
   std::cout << "Hello Common world!!" << std::endl;
+  NonPublic nonPublic;
+  nonPublic.secret();
 }
 
 int Bar::returnsN(int n)

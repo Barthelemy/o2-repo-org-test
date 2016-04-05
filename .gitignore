@@ -2,4 +2,5 @@
 .cproject
 .settings
 .idea
+*~
 build
