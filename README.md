@@ -33,12 +33,13 @@ use include_directories(../../Common/include). Maybe it is ok, but I am not sure
 
 To do:
 
-- [] add a non public header that is in src
-- [] DataFormats cmake
-- [] doxygen example
-- [] test example
-- [] enforce that "executables should always belong to the same bucket + the sub-package library" ?
-- [] script to create new module (in AliceO2 or independent)
-- [] get rid of as much boiler plate code as possible in the modules (typically the install function)
-- [] add the o2_setup macro that modules should call (related to previous point?)
-- [] standalone module example
+- [ ] add a non public header that is in src
+- [ ] DataFormats cmake
+- [ ] doxygen example
+- [ ] test example
+- [ ] enforce that "executables should always belong to the same bucket + the sub-package library" ?
+- [ ] script to create new module (in AliceO2 or independent)
+- [ ] get rid of as much boiler plate code as possible in the modules (typically the install function)
+- [ ] add the o2_setup macro that modules should call (related to previous point?)
+- [ ] standalone module example
+
